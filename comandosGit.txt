@@ -1,0 +1,9 @@
+Git Init.
+Git add .
+Git Commit - m
+Git Branch -m
+Git add .
+Git remote add origin https://github.com/danielboh27/Banco.git
+git remote -v
+git checkout master
+git merge feature/Banco-01

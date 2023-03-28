@@ -1,4 +1,3 @@
-import java.sql.Date;
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
@@ -7,8 +6,6 @@ public class Main {
     public static void main(String[] args) {
 
         ArrayList<Cliente> clientes = new ArrayList<>();
-
-        ArrayList<Cliente> clientes1 = new ArrayList<>();
 
         // If Statements
             
@@ -26,7 +23,6 @@ public class Main {
              Float ingresoMensual = 0f;
              Prestamo prestamo1E = new Prestamo(3,200.0f);
              Prestamo[] prestamoEjercicio = {prestamo1E};
-             float ingresoMin= 2000f;
              long antiguedad = ChronoUnit.MONTHS.between(fechaActual, fechaAlta);
     
 
